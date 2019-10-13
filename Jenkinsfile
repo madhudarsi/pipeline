@@ -1,3 +1,4 @@
 node {
-   echo 'Hello World'
+   stage('Build'){
+      sh 'echo "hello world!"'
 }
