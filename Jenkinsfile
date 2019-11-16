@@ -3,6 +3,7 @@ pipeline {
   
    stages {
       stage ("build"){
+         steps {
           input {
   message 'please provide input'
   parameters {
@@ -12,5 +13,5 @@ pipeline {
          echo "Hello World!"
       }
    }
-   
+   }
 }
